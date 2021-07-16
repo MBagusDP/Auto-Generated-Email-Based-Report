@@ -93,7 +93,7 @@ def compose_email(template, name, data_dict):
     TOTAL_SPENT="{:,}".format(data_dict['total_spent']),
     TOTAL_CONVERSION="{:,}".format(data_dict['total_conversion']),
     CPC=unroll_sentence(data_dict['cpc']),
-    GITHUB_LINK='https://github.com/ttnsy/fire-capstone'
+    GITHUB_LINK='https://github.com/MBagusDP/Auto-Generated-Email-Based-Report'
   )
   return composed
 
